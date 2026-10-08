@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🦷 DentalAI Pro — 3D Orthodontic Analysis System
 
 A full-stack AI-powered web application that performs **automated tooth segmentation and orthodontic diagnosis** on 3D dental scan data using a custom-trained **PointNet deep learning model**.
@@ -255,3 +256,6 @@ Returns `{ "status": "ok" }` — used by frontend for connectivity check.
 - The `main.py` contains commented-out versions of earlier iterations (without auth, without alignment simulation) preserved for reference
 - Point cloud data is subsampled by factor of 5 (`[::5]`) before sending to frontend to reduce payload size
 - The frontend uses `sessionStorage` (not `localStorage`) so the session clears on tab close
+=======
+# DentalAIPro
+>>>>>>> e7ed3b2d28bb33e718afd119e054a52474c0029e
